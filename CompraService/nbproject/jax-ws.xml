@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services>
+    <service name="LoginService">
+      <implementation-class>cl.Burgos.Service.LoginService</implementation-class>
+    </service>
+    <service name="ProductosService">
+      <implementation-class>cl.Burgos.Service.ProductosService</implementation-class>
+    </service>
+    <service name="CompraService">
+      <implementation-class>cl.Burgos.Service.CompraService</implementation-class>
+    </service>
+  </services>
+  <clients/>
+</jax-ws>

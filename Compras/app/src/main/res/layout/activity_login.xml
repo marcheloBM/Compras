@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.march.compras.Login">
+
+
+        <TextView
+            android:id="@+id/lblLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Login"
+            android:textColor="#080808"
+            android:textSize="40dp" />
+
+        <ImageView
+            android:id="@+id/imgLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lblLogin"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/login" />
+
+        <TextView
+            android:id="@+id/lblUsuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="USUARIO"
+            android:layout_below="@+id/imgLogin"
+            android:layout_toStartOf="@+id/imgLogin" />
+
+        <EditText
+            android:id="@+id/txtUsuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lblUsuario"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="58dp"
+            android:layout_alignEnd="@+id/btbSalir" />
+
+        <TextView
+            android:id="@+id/lblcontracena"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="CONTRASEÑA"
+            android:layout_below="@+id/txtUsuario"
+            android:layout_alignStart="@+id/lblUsuario" />
+
+        <EditText
+            android:id="@+id/txtContraseña"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:layout_below="@+id/lblcontracena"
+            android:layout_alignStart="@+id/txtUsuario" />
+
+        <Button
+            android:id="@+id/btbIngresar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ingresar"
+            android:text="Ingresar"
+            android:layout_below="@+id/txtContraseña"
+            android:layout_alignStart="@+id/txtContraseña"
+            android:layout_marginTop="51dp" />
+
+        <Button
+            android:id="@+id/btbSalir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/btbIngresar"
+            android:layout_alignBottom="@+id/btbIngresar"
+            android:layout_marginStart="33dp"
+            android:layout_toEndOf="@+id/lblcontracena"
+            android:onClick="salirapli"
+            android:text="Salir" />
+
+
+</RelativeLayout>

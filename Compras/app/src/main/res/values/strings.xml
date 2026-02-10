@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Compras</string>
+    <string name="title_activity_pagar">Pagar</string>
+    <string name="ip">https://10.0.2.2:8080</string>
+</resources>

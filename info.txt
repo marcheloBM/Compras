@@ -1,0 +1,5 @@
+http://localhost:8080/LoginService/LoginService?tester
+http://localhost:8080/ProductosService/ProductosService?tester
+http://localhost:8080/CompraService/CompraService?tester
+
+http://localhost:61234/Service1.svc
